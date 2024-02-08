@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Godot.FSharp.Extension", "Godot.FSharp.Extension.fsproj", "{59A150B4-9B6C-486C-95F4-798C22080D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Godot.Extension", "Godot.Extension\Godot.Extension.csproj", "{DD9B161A-63AF-4C1F-86EB-9FC6B3A45B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59A150B4-9B6C-486C-95F4-798C22080D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A150B4-9B6C-486C-95F4-798C22080D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A150B4-9B6C-486C-95F4-798C22080D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A150B4-9B6C-486C-95F4-798C22080D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9B161A-63AF-4C1F-86EB-9FC6B3A45B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9B161A-63AF-4C1F-86EB-9FC6B3A45B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9B161A-63AF-4C1F-86EB-9FC6B3A45B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9B161A-63AF-4C1F-86EB-9FC6B3A45B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

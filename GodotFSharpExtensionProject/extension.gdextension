@@ -1,0 +1,13 @@
+[configuration]
+entry_symbol = "example_library_init"
+compatibility_minimum = 4.1
+
+[libraries]
+linux.debug.x86_64 =     "res://../GodotRustNetCoreHost/target/debug/libGodotRustNetCoreHost.so"
+linux.release.x86_64 =   "res://../GodotRustNetCoreHost/target/release/libGodotRustNetCoreHost.so"
+windows.debug.x86_64 =   "res://../GodotRustNetCoreHost/target/debug/GodotRustNetCoreHost.dll"
+windows.release.x86_64 = "res://../GodotRustNetCoreHost/target/release/GodotRustNetCoreHost.dll"
+macos.debug =            "res://../GodotRustNetCoreHost/target/debug/libGodotRustNetCoreHost.dylib"
+macos.release =          "res://../GodotRustNetCoreHost/target/release/libGodotRustNetCoreHost.dylib"
+macos.debug.arm64 =      "res://../GodotRustNetCoreHost/target/debug/libGodotRustNetCoreHost.dylib"
+macos.release.arm64 =    "res://../GodotRustNetCoreHost/target/release/libGodotRustNetCoreHost.dylib"
